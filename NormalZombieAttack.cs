@@ -11,7 +11,6 @@ public class NormalZombieAttack : MonoBehaviour
         player.TakeDamage(normalZombieDamage);
 
 
-            GatesHealth gates = collision.GetComponent<GatesHealth>();
-            gates.TakeDamage(normalZombieDamage);
+);
     }
 }
