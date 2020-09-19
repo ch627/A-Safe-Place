@@ -23,11 +23,6 @@ public class EnemyManager : MonoBehaviour
     {
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
     }
-
-    private void Update()
-    {
-        
-    }
     public IEnumerator SpawnDelay()
     {
         Spawn();
