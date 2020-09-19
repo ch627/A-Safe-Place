@@ -15,8 +15,6 @@ public class EnemyManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine("SpawnDelay");
-        //InvokeRepeating("SpawnNewEnemy", 1.0f, 3.0f);
-
     }
 
         void Spawn()
